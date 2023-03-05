@@ -25,20 +25,23 @@ main {
 }
 
 figure {
-  margin: auto;
-  margin-block-end: 10vh;
-}
-
-figure {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   margin-block-end: 10vh;
 }
 
 figcaption {
   display: inline-flex;
-  font-size: 2em;
+  font-size: 3em;
   margin: auto;
-  margin-block-end: 30vh;
+  margin-block-end: 10vh;
+}
+
+h1 {
+  font-weight: unset;
 }
 
 h2 {
@@ -50,6 +53,15 @@ q {
   display: table;
   margin-left: auto;
   quotes: "((" "))";
+}
+
+b {
+  font-size: 2em;
+}
+
+code {
+  font-family: unset;
+  font-weight: bold;
 }
 
 del {
